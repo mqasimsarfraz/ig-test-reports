@@ -1268,42 +1268,6 @@
   ],
   "test-integration-non-k8s-ig_containerd": [
     {
-      "id": "348_1",
-      "run_id": "7759551746",
-      "ref_name": "main",
-      "summary": {
-        "conclusion": "success",
-        "pass": [
-          "TestFilterByContainerName",
-          "TestWatchContainers",
-          "TestSnapshotProcess",
-          "TestTopEbpf",
-          "TestTraceDns",
-          "TestTraceNetwork"
-        ],
-        "fail": null,
-        "skip": null
-      }
-    },
-    {
-      "id": "352_1",
-      "run_id": "7798177353",
-      "ref_name": "main",
-      "summary": {
-        "conclusion": "success",
-        "pass": [
-          "TestFilterByContainerName",
-          "TestWatchContainers",
-          "TestSnapshotProcess",
-          "TestTopEbpf",
-          "TestTraceDns",
-          "TestTraceNetwork"
-        ],
-        "fail": null,
-        "skip": null
-      }
-    },
-    {
       "id": "352_3",
       "run_id": "7798177353",
       "ref_name": "main",
@@ -1340,8 +1304,8 @@
       }
     },
     {
-      "id": "352_3",
-      "run_id": "7798177353",
+      "id": "353_1",
+      "run_id": "7799040003",
       "ref_name": "main",
       "summary": {
         "conclusion": "success",
@@ -1359,57 +1323,6 @@
     }
   ],
   "test-integration-non-k8s-ig_docker": [
-    {
-      "id": "348_1",
-      "run_id": "7759551746",
-      "ref_name": "main",
-      "summary": {
-        "conclusion": "success",
-        "pass": [
-          "TestFilterByContainerName",
-          "TestWatchContainers",
-          "TestSnapshotProcess",
-          "TestTopEbpf",
-          "TestTraceDns",
-          "TestTraceNetwork"
-        ],
-        "fail": null,
-        "skip": null
-      }
-    },
-    {
-      "id": "352_1",
-      "run_id": "7798177353",
-      "ref_name": "main",
-      "summary": {
-        "conclusion": "success",
-        "pass": [
-          "TestFilterByContainerName",
-          "TestWatchContainers",
-          "TestSnapshotProcess",
-          "TestTopEbpf",
-          "TestTraceDns",
-          "TestTraceNetwork"
-        ],
-        "fail": null,
-        "skip": null
-      }
-    },
-    {
-      "id": "352_3",
-      "run_id": "7798177353",
-      "ref_name": "main",
-      "summary": {
-        "conclusion": "cancelled",
-        "pass": [
-          "TestFilterByContainerName",
-          "TestTopEbpf",
-          "TestTraceNetwork"
-        ],
-        "fail": null,
-        "skip": null
-      }
-    },
     {
       "id": "352_4",
       "run_id": "7798177353",
@@ -1431,6 +1344,24 @@
     {
       "id": "352_5",
       "run_id": "7798177353",
+      "ref_name": "main",
+      "summary": {
+        "conclusion": "success",
+        "pass": [
+          "TestFilterByContainerName",
+          "TestWatchContainers",
+          "TestSnapshotProcess",
+          "TestTopEbpf",
+          "TestTraceDns",
+          "TestTraceNetwork"
+        ],
+        "fail": null,
+        "skip": null
+      }
+    },
+    {
+      "id": "353_1",
+      "run_id": "7799040003",
       "ref_name": "main",
       "summary": {
         "conclusion": "success",
