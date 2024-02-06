@@ -53,6 +53,17 @@
           "TestTopBlockIO"
         ]
       }
+    },
+    {
+      "id": "352_1",
+      "run_id": "7798177353",
+      "ref_name": "main",
+      "summary": {
+        "conclusion": "cancelled",
+        "pass": null,
+        "fail": null,
+        "skip": null
+      }
     }
   ],
   "test-integration-k8s-ig_cri-o": [
@@ -110,6 +121,17 @@
           "TestTopBlockIO"
         ]
       }
+    },
+    {
+      "id": "352_1",
+      "run_id": "7798177353",
+      "ref_name": "main",
+      "summary": {
+        "conclusion": "cancelled",
+        "pass": null,
+        "fail": null,
+        "skip": null
+      }
     }
   ],
   "test-integration-k8s-ig_docker": [
@@ -165,6 +187,17 @@
         "skip": [
           "TestTopBlockIO"
         ]
+      }
+    },
+    {
+      "id": "352_1",
+      "run_id": "7798177353",
+      "ref_name": "main",
+      "summary": {
+        "conclusion": "cancelled",
+        "pass": null,
+        "fail": null,
+        "skip": null
       }
     }
   ],
@@ -375,12 +408,48 @@
         "fail": null,
         "skip": null
       }
+    },
+    {
+      "id": "352_1",
+      "run_id": "7798177353",
+      "ref_name": "main",
+      "summary": {
+        "conclusion": "success",
+        "pass": [
+          "TestFilterByContainerName",
+          "TestWatchContainers",
+          "TestSnapshotProcess",
+          "TestTopEbpf",
+          "TestTraceDns",
+          "TestTraceNetwork"
+        ],
+        "fail": null,
+        "skip": null
+      }
     }
   ],
   "test-integration-non-k8s-ig_docker": [
     {
       "id": "348_1",
       "run_id": "7759551746",
+      "ref_name": "main",
+      "summary": {
+        "conclusion": "success",
+        "pass": [
+          "TestFilterByContainerName",
+          "TestWatchContainers",
+          "TestSnapshotProcess",
+          "TestTopEbpf",
+          "TestTraceDns",
+          "TestTraceNetwork"
+        ],
+        "fail": null,
+        "skip": null
+      }
+    },
+    {
+      "id": "352_1",
+      "run_id": "7798177353",
       "ref_name": "main",
       "summary": {
         "conclusion": "success",
